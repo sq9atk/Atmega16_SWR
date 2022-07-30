@@ -1,0 +1,2 @@
+sudo avrdude -p m16 -P avrdoper -c usbasp -U lfuse:w:0xef:m -U hfuse:w:0xd9:m 
+
